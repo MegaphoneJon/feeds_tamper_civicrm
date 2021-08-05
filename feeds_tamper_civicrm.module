@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Feeds plugins
+ */
+function feeds_tamper_civicrm_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'feeds_tamper' && $plugin_type == 'plugins') {
+    return 'plugins/';
+  }
+}

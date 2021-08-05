@@ -1,0 +1,19 @@
+name = Feeds Tamper CiviCRM
+description = Feeds Tamper CiviCRM plugins
+package = Feeds
+version = VERSION
+core = 7.x
+
+dependencies[] = civicrm
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+
+
+
+
+; Information added by Drupal.org packaging script on 2018-03-23
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "feeds_tamper_civicrm"
+datestamp = "1521769687"
+
